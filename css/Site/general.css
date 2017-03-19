@@ -1,0 +1,19 @@
+.wide-input{
+    width: 400px ! important;
+}
+
+.btn-margin-top{
+    margin-top: 10px;
+}
+
+.progress-bar-zero{
+    width: 0px;
+}
+
+.progress-bar-wide{
+    width: 600px !important;
+}
+
+.display-none{
+    display: none !important;
+}
