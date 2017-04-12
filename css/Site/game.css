@@ -69,8 +69,8 @@ textarea{
 }
 
 canvas{
-    width: 2048px !important;
-    height: 832px !important;
+    width: 100% !important;
+    height: 100% !important;
     margin-left: 0 !important;
     margin-top: 0 !important;
     overflow: hidden;
