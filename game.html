@@ -7,10 +7,16 @@
     <link rel="stylesheet" href="css/Site/game.css"/>
 
     <script src="js/lib/phaser.min.js"></script>
-    <script src="js/canva/util.js"></script>
-    <script src="js/canva/Bot.js"></script>
-    <script src="js/canva/BotsController.js"></script>
-    <script src="js/canva/phaser.game.js"></script>
+
+    <script src="js/core/Bot.js"></script>
+    <script src="js/core/BotsController.js"></script>
+
+    <script src="js/modules/bots.module.js"></script>
+    <script src="js/modules/initializing.module.js"></script>
+    <script src="js/modules/camera.module.js"></script>
+    <script src="js/modules/util.js"></script>
+
+    <script src="js/core/phaser.game.js"></script>
 </head>
 <body>
     <main class="flex-container">
@@ -43,14 +49,14 @@
         <footer class="bounded-block">
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 less-paddings scrollable-block">
                 <ul class="list-group">
-                   <li class="list-group-item active">Bot1</li>
-                   <li class="list-group-item bot-item">Bot2</li>
-                   <li class="list-group-item bot-item">Bot3</li>
-                   <li class="list-group-item bot-item">Bot4</li>
+                   <li class="list-group-item bot-item active" id="botList0">Bot1</li>
+                   <li class="list-group-item bot-item" id="botList1">Bot2</li>
+                   <li class="list-group-item bot-item" id="botList2">Bot3</li>
+                   <li class="list-group-item bot-item" id="botList3">Bot4</li>
                 </ul>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 height-100 less-paddings">
-                <textarea class="form-control height-100"></textarea>
+                <textarea class="form-control height-100" id="code"></textarea>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 panel-group less-paddings scrollable-block">
                 <div class="panel panel-danger">
