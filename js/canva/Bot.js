@@ -8,6 +8,7 @@ class Bot{
         this.health = 100;
         this.x = x;
         this.y = y;
+        this.sprite = null;
     }
 
     get X(){
@@ -37,6 +38,6 @@ class Bot{
     }
 
     shoot(){
-        
+
     }
 }
